@@ -4,6 +4,9 @@
   <remote
       name="marcmo"
       fetch="https://github.com/marcmo/" />
+  <remote
+      name="gizmomogwai"
+      fetch="https://github.com/gizmomogwai/" />
 
   <default
       revision="master"
@@ -11,4 +14,13 @@
       sync-j="4" />
 
   <project path="cxxproject" name="cxxproject" remote="marcmo" />
+  <project path="cxx" name="cxxproject_cxx" remote="gizmomogwai" />
+  <project path="cxxproject_gcctoolchain" name="toolchaingcc" remote="marcmo" />
+  <project path="cxxproject_clangtoolchain" name="toolchainclang" remote="marcmo" />
+  <project path="cxxproject_valgrind" name="cxxproject_valgrind" remote="gizmomogwai" />
+  <project path="cxxproject_tomake" name="cxxproject_tomake" remote="gizmomogwai" />
+  <project path="cxxproject_gcov" name="cxxproject_gcov" remote="gizmomogwai" />
+  <project path="cxxproject_easy" name="cxxproject_easy" remote="gizmomogwai" />
+  <project path="examples" name="cxxproject_examples" remote="gizmomogwai" />
+  <project path="tests" name="cxxproject_tests" remote="gizmomogwai" />
 </manifest>
