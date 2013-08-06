@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote
+      name="marcmo"
+      fetch="https://github.com/marcmo/" />
+
+  <default
+      revision="master"
+      remote="marcmo"
+      sync-j="4" />
+
+  <project path="cxxproject" name="cxxproject" remote="marcmo" />
+</manifest>
