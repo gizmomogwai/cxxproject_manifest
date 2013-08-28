@@ -3,12 +3,15 @@
 
   <remote
       name="marcmo"
+      review="https://github.com"
       fetch="https://github.com/marcmo/" />
   <remote
       name="gizmomogwai"
+      review="https://github.com"
       fetch="https://github.com/gizmomogwai/" />
   <remote
       name="kruss"
+      review="https://github.com"
       fetch="https://github.com/kruss/" />
 
   <default
@@ -22,7 +25,7 @@
   <project path="cxxproject_clangtoolchain" name="toolchainclang" remote="marcmo" />
   <project path="cxxproject_console" name="cxxproject_console" remote="gizmomogwai" />
   <project path="cxxproject_easy" name="cxxproject_easy" remote="gizmomogwai" />
-  <project path="cxxproject_gcctoolchain" name="toolchaingcc" remote="marcmo" />
+  <project path="cxxproject_gcctoolchain" name="toolchaingcc" remote="gizmomogwai" />
   <project path="cxxproject_gcov" name="cxxproject_gcov" remote="gizmomogwai" />
   <project path="cxxproject_progress" name="cxxproject_progress" remote="gizmomogwai" />
   <project path="cxxproject_stats" name="cxxproject_stats" remote="gizmomogwai" />
