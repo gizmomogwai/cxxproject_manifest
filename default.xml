@@ -3,20 +3,16 @@
 
   <remote
       name="marcmo"
-      review="https://github.com"
-      fetch="https://github.com/marcmo/" />
+      fetch="git@github.com:marcmo/" />
   <remote
       name="gizmomogwai"
-      review="https://github.com"
-      fetch="https://github.com/gizmomogwai/" />
+      fetch="git@github.com:gizmomogwai/" />
   <remote
       name="kruss"
-      review="https://github.com"
-      fetch="https://github.com/kruss/" />
+      fetch="git@github.com:kruss/" />
 
   <default
       revision="master"
-      remote="marcmo"
       sync-j="4" />
 
   <project path="cxx" name="cxxproject_cxx" remote="gizmomogwai" />
