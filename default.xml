@@ -3,13 +3,13 @@
 
   <remote
       name="marcmo"
-      fetch="git@github.com:marcmo/" />
+      fetch="ssh://git@github.com:marcmo/" />
   <remote
       name="gizmomogwai"
-      fetch="git@github.com:gizmomogwai/" />
+      fetch="ssh://git@github.com:gizmomogwai/" />
   <remote
       name="kruss"
-      fetch="git@github.com:kruss/" />
+      fetch="ssh://git@github.com:kruss/" />
 
   <default
       revision="master"
