@@ -17,6 +17,7 @@
 
   <project path="cxx" name="cxxproject_cxx" remote="gizmomogwai" />
   <project path="cxxproject" name="cxxproject" remote="marcmo" />
+  <project path="cxxproject_clangformat" name="cxxproject_clangformat" remote="gizmomogwai" />
   <project path="cxxproject_clanganalyzer" name="cxxproject_clanganalyzer" remote="gizmomogwai" />
   <project path="cxxproject_clangtoolchain" name="toolchainclang" remote="marcmo" />
   <project path="cxxproject_console" name="cxxproject_console" remote="gizmomogwai" />
